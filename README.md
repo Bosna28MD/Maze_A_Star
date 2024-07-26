@@ -1,2 +1,18 @@
-# Maze_A_Star_
-I have created a maze where I is finding the shortest path from two points
+# Maze(A* Algorithm)
+
+## Description
+In this project is printed a board 2D(16x16) for finding(printing) the shortest-path between two points using **A\* Algorithm**. The boxes in board can be of following color:
+1. white   -> free point
+2. red     -> start point
+3. blue    -> end point
+4. green   -> obstacle point
+5. purple  -> path
+
+The point of start and point of end is setted hard-coded. As action user can use click-left and click-right. CLick-left is for the event of coloring the white box in green color(printing the obstacle-point) 
+and click-right is used for coloring a green box into a white box(removing the obstacle-point). 
+
+The goal of this program is anytime user color  a white-box(free-box) into a green-box(obstacle box) or vice-versa is called A* algorithm for finding the shortest path(green) between start-point and end-point.
+<p>The path can be traversed in 8 direction: up, down, left, right, up-left, up-right, down-left and down-right.When it's traversed into a near box up,down,left and right the value is 10, 
+  but in up-left, up-right, down-left and down-right value is 14.    </p>
+
+## Running project:
